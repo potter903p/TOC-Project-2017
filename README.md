@@ -53,7 +53,7 @@ python3 app.py
 The initial state is set to `init`.
 
 Every time `init` state is triggered to `advance` to another state, follow the command choose the option then bot replies corresponding message and go to another state. 
-Finally bot will show the dish you order and the prize you need to pay.
+>Finally bot will show the dish you order and the prize you need to pay.
 
 * init
 	* Reply: "What do you want to eat ?"

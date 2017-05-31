@@ -55,31 +55,31 @@ The initial state is set to `init`.
 Every time `init` state is triggered to `advance` to another state, follow the command choose the option then bot replies corresponding message. Finally bot will show the dish you order and the prize you need to pay.
 
 * init
-		*Reply: "What do you want to eat ?"
-		*Reply: "1)McDonald's"
-		*Reply: "2)KFC"
-		*Reply: "3)SUBWAY"
+		* Reply: "What do you want to eat ?"
+		* Reply: "1)McDonald's"
+		* Reply: "2)KFC"
+		* Reply: "3)SUBWAY"
 
 	* Input: "1"
-		*Reply: "Welcome to McDonald's"
-		*Reply: "Choose your main course :"
-		*Reply: "1)Big Mac - $50"
-		*Reply: "2)Chicken McNuggets - $40"
-		*Reply: "3)McDouble - $45"
+		* Reply: "Welcome to McDonald's"
+		* Reply: "Choose your main course :"
+		* Reply: "1)Big Mac - $50"
+		* Reply: "2)Chicken McNuggets - $40"
+		* Reply: "3)McDouble - $45"
 
 	* Input: "2"
-		*Reply: "Welcome to KFC"
-		*Reply: "Choose your main course :"
-		*Reply: "1)Original Recipe Chicken - $20"
-		*Reply: "2)Chicken Ceaser Twister - $40"
-		*Reply: "3)Zinger Burger - $45"
+		* Reply: "Welcome to KFC"
+		* Reply: "Choose your main course :"
+		* Reply: "1)Original Recipe Chicken - $20"
+		* Reply: "2)Chicken Ceaser Twister - $40"
+		* Reply: "3)Zinger Burger - $45"
 
 	* Input: "3"
-		*Reply: "Welcome to SUBWAY"
-		*Reply: "Choose your main course :"
-		*Reply: "1)Roast Beef Sandwich - $70"
-		*Reply: "2)Meatball Marinara Sandwich - $60"
-		*Reply: "3)Classic Tuna Sandwich - $65"
+		* Reply: "Welcome to SUBWAY"
+		* Reply: "Choose your main course :"
+		* Reply: "1)Roast Beef Sandwich - $70"
+		* Reply: "2)Meatball Marinara Sandwich - $60"
+		* Reply: "3)Classic Tuna Sandwich - $65"
 
 
 ## Author

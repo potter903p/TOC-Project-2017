@@ -56,6 +56,7 @@ Every time `init` state is triggered to `advance` to another state, follow the c
 
 Finally bot will show the dish you order and the prize you need to pay.
 
+### Example
 * init
 	* Reply: "What do you want to eat ?"
 	* Reply: "1)McDonald's"

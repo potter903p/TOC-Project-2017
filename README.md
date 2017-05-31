@@ -43,7 +43,7 @@ You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`(don't forgot t
 #### Run the sever
 
 ```sh
-python3 app.py
+python app.py
 ```
 
 ## Finite State Machine

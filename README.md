@@ -1,8 +1,6 @@
 # TOC Project 2017
 
-Code for TOC Project 2017
-
-A telegram bot based on a finite state machine
+模擬機器人點餐系統
 
 ## Setup
 
@@ -18,12 +16,11 @@ pip install -r requirements.txt
     * [Setup pygraphviz on Ubuntu](http://www.jianshu.com/p/a3da7ecc5303)
 
 ### Secret Data
-[Setup and background knowledge](http://lee-w.github.io/posts/bot/2017/03/create-a-telegram-echobot/) 
+[基本架構及背景知識](http://lee-w.github.io/posts/bot/2017/03/create-a-telegram-echobot/) 
 
-`API_TOKEN` and `WEBHOOK_URL` in app.py **MUST** be set to proper values.
-Otherwise, you might not be able to run your code.
+`API_TOKEN` 和 `WEBHOOK_URL` in app.py **必須** 給定數值，否則無法運作.
 
-`API_TOKEN` must be fill in the value in the bottom red square.
+`API_TOKEN` 需輸入如下方圖片紅色框框中的數值(bot_father回傳的)
 ![API](./img/API.png)
 
 ### Run Locally
@@ -38,23 +35,22 @@ You can either setup https server or using `ngrok` as a proxy.
 After that, `ngrok` would generate a https URL.
 ![URL](./img/URL.png)
 
-You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`(don't forgot the '/hook').
+`WEBHOOK_URL` (in app.py) 需輸入上圖紅框內的數值 `your-https-URL/hook`(別忘記在字尾要自行加上 '/hook').
 
 #### Run the sever
 
 ```sh
-python3 app.py
+python app.py
 ```
+(在助教的範例程式碼中是用python3，但我在虛擬機上跑會出現error所以這裡改用python.)
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
 
 ## Usage
-The initial state is set to `init`.
+剛開始進入機器人會詢問你想要吃哪以家速食店的餐點，只要依序回答螢幕上出現的選項就會進一步詢問要選購的項目，最後再將選購的項目以及金額顯示出來.
 
-Every time `init` state is triggered to `advance` to another state, follow the command choose the option then bot replies corresponding message and go to another state. 
->Finally bot will show the dish you order and the prize you need to pay.
-
+###Example
 * init
 	* Reply: "What do you want to eat ?"
 	* Reply: "1)McDonald's"

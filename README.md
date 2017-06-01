@@ -78,6 +78,11 @@ python app.py
 		* Reply: "2)Meatball Marinara Sandwich - $60"
 		* Reply: "3)Classic Tuna Sandwich - $65"
 
+###Demo picture
+![demo_1](./img/1.png)
+![demo_2](./img/2.png)
+![demo_3](./img/3.png)
+![demo_4](./img/4.png)
 
 ## Author
 [potter903p](https://github.com/potter903p)

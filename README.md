@@ -50,7 +50,7 @@ python app.py
 ## Usage
 剛開始進入機器人會詢問你想要吃哪以家速食店的餐點，只要依序回答螢幕上出現的選項就會進一步詢問要選購的項目，最後再將選購的項目以及金額顯示出來.
 
-###Example
+### Example
 * init
 	* Reply: "What do you want to eat ?"
 	* Reply: "1)McDonald's"
@@ -78,10 +78,13 @@ python app.py
 		* Reply: "2)Meatball Marinara Sandwich - $60"
 		* Reply: "3)Classic Tuna Sandwich - $65"
 
-###Demo picture
+### Demo picture
 ![demo_1](./img/1.png)
+
 ![demo_2](./img/2.png)
+
 ![demo_3](./img/3.png)
+
 ![demo_4](./img/4.png)
 
 ## Author
